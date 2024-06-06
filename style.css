@@ -4,6 +4,7 @@ body{
 h1{
     display: flex;
     justify-content: center;
+    color: blue;
 }
 table{
     border-collapse: collapse;
@@ -13,7 +14,27 @@ th{
     background-color: yellow;
     width: 10%;
 }
+th:first-child{
+    background-color: #fff;
+}
+/* .table-tr{
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+} */
+tr:nth-of-type(2){
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
 th,td{
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: blue;
 }
